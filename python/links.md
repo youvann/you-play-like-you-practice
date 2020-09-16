@@ -92,6 +92,7 @@ def enumerate(sequence, start=0):
 ## GIL
 
 * [Glossary — Python 3.8.3rc1 documentation](https://docs.python.org/3/glossary.html#term-global-interpreter-lock)
+* https://m.youtube.com/watch?v=KVKufdTphKs
 
 ## HTTPS
 
