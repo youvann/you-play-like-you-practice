@@ -111,3 +111,18 @@ Le résultat de la commande ressemble à :
 ```
 
 où `<tag>` est le tag le plus proche dans l'historique, `<numCommits>` le nombre de commits avec le tag, et `<hash>` le hash/identifiant du commit décrit.
+
+## Les parents
+
+Comme le symbole `~`, le symbole `^` accepte un numéro après lui.
+
+Au lieu d'entrer le nombre de générations à remonter (ce que ~ fait), le symbole ^ détermine quel parent est à remonter. Attention, un merge commit a deux parents ce qui peut porter à confusion.
+
+Normalement Git suit le "premier" parent pour un commit/merge, mais avec un numéro suivi de ^ le comportement par défaut est modifié.
+
+Créer une branche en utilisant une réference :
+
+```
+# créé la branche `bugWork` à partir du commit parent 
+git branch bugWork HEAD~^2~
+```
