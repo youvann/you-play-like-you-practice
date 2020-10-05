@@ -126,3 +126,19 @@ Créer une branche en utilisant une réference :
 # créé la branche `bugWork` à partir du commit parent 
 git branch bugWork HEAD~^2~
 ```
+
+## git fetch
+
+git fetch procède en deux étapes principales, ni plus ni moins. Cela :
+
+* télécharge les commits que le dépôt distant possède mais qui ne sont pas dans le nôtre, puis...
+* met à jour nos branches distantes (par exemple, o/master).
+
+git fetch prend en fait notre représentation locale du dépôt distant pour la synchroniser avec ce à quoi le dépôt distant ressemble réellement (à ce moment-là).
+
+Si vous vous rappelez de la précédente leçon, nous avons dit que les branches distantes reflètent l'état du dépôt distant depuis la dernière fois où vous avez parlé à ces branches distantes. git fetch est le moyen de parler à ces branches distantes ! La relation entre git fetch et les branches distantes devrait vous apparaître clairement maintenant.
+
+git fetch contacte le dépôt distant par Internet (via un protocole comme http:// ou git://).
+
+## git pull
+
