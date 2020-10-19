@@ -107,6 +107,7 @@ https://refactoring.guru/design-patterns
 * https://youtu.be/rk-f3B-eMkI
 * [Testing Guide](https://www.martinfowler.com/testing/)
 * [James Shore: The Art of Agile Development: Test-Driven Development](https://www.jamesshore.com/Agile-Book/test_driven_development.html)
+* https://blog.pragmatists.com/test-doubles-fakes-mocks-and-stubs-1a7491dfa3da
 
 ## Webextensions API
 
